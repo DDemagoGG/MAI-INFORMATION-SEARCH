@@ -1,0 +1,20 @@
+$ python scripts/extract_text.py config/crawler.yaml
+Written TSV: data/corpus/raw_text.tsv
+Written stats: data/corpus/lab1_stats.json
+{
+  "stats": {
+    "documents_total": 30646,
+    "documents_written": 30646,
+    "raw_html_bytes_total": 21384282380,
+    "text_bytes_total": 163523531,
+    "text_chars_total": 160306486,
+    "avg_raw_html_bytes": 697783,
+    "avg_text_bytes": 5335,
+    "avg_text_chars": 5230
+  },
+  "sources": {
+    "nme": 6371,
+    "pitchfork": 19668,
+    "rollingstone": 4607
+  }
+}

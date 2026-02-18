@@ -1,0 +1,12 @@
+$ search_cli --index-dir data/index --query "beatles AND NOT lennon" --limit 10
+TOTAL	139
+DOC	173	NOEL'S 1988 DEMO TAPE UNDER CHRISTIES' HAMMER IN APRIL; PLUS EXCLUSIVE TRACK-BY-TRACK REVIEW	https://www.nme.com/news/music/noel-gallagher-391-1393181
+DOC	254	Denny Laine, Wings and Moody Blues Co-Founder, Dies at 79 | Pitchfork	https://pitchfork.com/news/denny-laine-wings-and-moody-blues-co-founder-dies-at-79
+DOC	448	U2 AND ASH 'GIVE PEACE A CHANCE' IN BELFAST	https://www.nme.com/news/music/ash-121-1390777
+DOC	612	SIR GEORGE MARTIN BLASTS 'DRUG-USING BANDS'	https://www.nme.com/news/music/the-beatles-458-1389315
+DOC	958	Peter Jackson Directs New Video for the Beatles’ Final Song “Now and Then”: Watch | Pitchfork	https://pitchfork.com/news/peter-jackson-directs-new-video-for-the-beatles-final-song-now-and-then-watch
+DOC	981	Why the Beatles’ Last Song Couldn’t Have Existed Until Now | Pitchfork	https://pitchfork.com/thepitch/the-beatles-now-and-then-technology
+DOC	993	Listen to the Beatles’ Final Song “Now and Then” | Pitchfork	https://pitchfork.com/news/listen-to-the-beatles-final-song-now-and-then
+DOC	1122	John Lennon: Murder Without a Trial Docuseries Announced at Apple TV+ | Pitchfork	https://pitchfork.com/news/john-lennon-murder-without-a-trial-docuseries-announced-at-apple-tv
+DOC	1123	Paul McCartney’s Animated Film High in the Clouds Gets Director and Composer | Pitchfork	https://pitchfork.com/news/paul-mccartneys-animated-film-high-in-the-clouds-gets-director-and-composer
+DOC	1145	The Beatles’ Final Song “Now and Then” Announced | Pitchfork	https://pitchfork.com/news/the-beatles-final-song-now-and-then-announced

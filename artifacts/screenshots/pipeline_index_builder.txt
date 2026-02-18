@@ -1,0 +1,7 @@
+$ ./cxx/build/index_builder data/processed/stemmed.txt data/corpus/raw_text.tsv data/index
+Index builder finished
+documents_indexed=30646
+tokens_seen=27231515
+unique_terms=112621
+total_postings=12659299
+docs_with_meta=30646

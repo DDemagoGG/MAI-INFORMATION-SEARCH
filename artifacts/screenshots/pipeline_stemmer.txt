@@ -1,0 +1,4 @@
+$ ./cxx/build/stemmer data/processed/tokenized.txt data/processed/stemmed.txt
+Stemmer finished
+documents=30646
+tokens=27231515

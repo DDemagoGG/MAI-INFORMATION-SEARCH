@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search results</title>
+    <style>
+      body { font-family: Arial, sans-serif; max-width: 920px; margin: 32px auto; padding: 0 16px; }
+      input[type="text"] { width: 100%; padding: 12px; font-size: 16px; }
+      button { margin-top: 12px; padding: 10px 16px; font-size: 16px; }
+      .result { margin: 18px 0; }
+      .meta { color: #555; font-size: 14px; }
+      .nav { margin-top: 24px; display: flex; gap: 12px; }
+      .error { color: #b00020; margin-top: 12px; }
+      a { color: #0047b3; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <h1>Music Boolean Search</h1>
+    <form action="/search" method="get">
+      <label for="q">Query</label>
+      <input id="q" name="q" type="text" value="{{ query }}" required />
+      <button type="submit">Search</button>
+    </form>
+
+    <p>Found: <strong>{{ total }}</strong> documents</p>
+
+    {% if error %}
+      <div class="error">{{ error }}</div>
+    {% endif %}
+
+    {% for doc in docs %}
+      <div class="result">
+        <div><a href="{{ doc.url }}" target="_blank" rel="noopener">{{ doc.title or doc.url }}</a></div>
+        <div class="meta">doc_id={{ doc.doc_id }}</div>
+      </div>
+    {% endfor %}
+
+    <div class="nav">
+      {% if has_prev %}
+        <a href="{{ url_for('search', q=query, page=page-1) }}">Previous 50</a>
+      {% endif %}
+      {% if has_next %}
+        <a href="{{ url_for('search', q=query, page=page+1) }}">Next 50</a>
+      {% endif %}
+    </div>
+  </body>
+</html>

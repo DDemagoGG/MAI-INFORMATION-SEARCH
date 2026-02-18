@@ -1,0 +1,52 @@
+db:
+  mongo_uri: "mongodb://localhost:27017"
+  database: "music_ir"
+  queue_collection: "crawl_queue"
+  docs_collection: "documents"
+
+logic:
+  delay_seconds: 1.0
+  request_timeout_seconds: 20
+  max_documents: 32000
+  recrawl_after_hours: 168
+  user_agent: "MusicIRCourseBot/1.0 (+https://example.local/edu)"
+
+output:
+  raw_text_tsv: "data/corpus/raw_text.tsv"
+  tokenized_path: "data/processed/tokenized.txt"
+  stemmed_path: "data/processed/stemmed.txt"
+  term_freq_csv: "data/processed/term_freq.csv"
+  zipf_png: "artifacts/zipf_music_en.png"
+  index_dir: "data/index"
+
+sources:
+  - name: "nme"
+    language: "en"
+    sitemap_index: "https://www.nme.com/sitemap_index.xml"
+    allowed_prefixes:
+      - "https://www.nme.com/news/music/"
+      - "https://www.nme.com/reviews/"
+      - "https://www.nme.com/features/"
+      - "https://www.nme.com/artists-interviews/"
+    sitemap_allow_patterns:
+      - "post-sitemap"
+
+  - name: "pitchfork"
+    language: "en"
+    sitemap_index: "https://pitchfork.com/sitemap.xml"
+    allowed_prefixes:
+      - "https://pitchfork.com/"
+      - "https://pitchfork.com/news/"
+      - "https://pitchfork.com/reviews/"
+      - "https://pitchfork.com/features/"
+      - "https://pitchfork.com/thepitch/"
+    sitemap_allow_patterns:
+      - "sitemap.xml?year="
+
+  - name: "rollingstone"
+    language: "en"
+    sitemap_index: "https://www.rollingstone.com/sitemap_index.xml"
+    allowed_prefixes:
+      - "https://www.rollingstone.com/music/"
+    sitemap_allow_patterns:
+      - "post-sitemap"

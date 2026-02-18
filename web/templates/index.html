@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Music Boolean Search</title>
+    <style>
+      body { font-family: Arial, sans-serif; max-width: 920px; margin: 32px auto; padding: 0 16px; }
+      input[type="text"] { width: 100%; padding: 12px; font-size: 16px; }
+      button { margin-top: 12px; padding: 10px 16px; font-size: 16px; }
+      .hint { color: #444; margin-top: 16px; }
+      code { background: #f2f2f2; padding: 2px 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>Music Boolean Search</h1>
+    <form action="/search" method="get">
+      <label for="q">Query</label>
+      <input id="q" name="q" type="text" placeholder="(beatles || metallica) !cover" required />
+      <button type="submit">Search</button>
+    </form>
+    <p class="hint">
+      Operators: <code>space</code> or <code>&amp;&amp;</code> = AND, <code>||</code> = OR, <code>!</code> = NOT, parentheses are supported.
+    </p>
+  </body>
+</html>

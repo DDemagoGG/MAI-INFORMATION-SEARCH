@@ -1,0 +1,6 @@
+$ ./cxx/build/term_stats data/processed/stemmed.txt data/processed/term_freq.csv
+Term stats finished
+documents=30646
+all_tokens=27231515
+unique_terms=112621
+avg_term_length=4.4184

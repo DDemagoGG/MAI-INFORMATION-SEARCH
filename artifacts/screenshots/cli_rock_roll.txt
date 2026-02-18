@@ -1,0 +1,12 @@
+$ search_cli --index-dir data/index --query "rock AND roll" --limit 10
+TOTAL	9343
+DOC	1	CUM ON FEEL THE WHITE NOISE!	https://www.nme.com/news/music/mogwai-107-1394602
+DOC	3	BACCHUS FOR GOOD	https://www.nme.com/news/music/janes-addiction-28-1304396
+DOC	5	FAB FEM	https://www.nme.com/news/music/sleater-kinney-25-1394595
+DOC	6	The Best Music Video Choreography of 2023 | Pitchfork	https://pitchfork.com/thepitch/lists-and-guides/best-music-video-choreography-2023
+DOC	7	THIS IS A BALL!	https://www.nme.com/news/music/foo-fighters-595-1394566
+DOC	8	Massive Attack, Fontaines D.C., and Young Fathers Announce Ceasefire EP for Gaza Relief Efforts | Pitchfork	https://pitchfork.com/news/massive-attack-fontaines-dc-and-young-fathers-announce-ceasefire-ep-for-gaza-relief-efforts
+DOC	14	The 13 Best Concerts of 2023 (That Weren’t Taylor Swift or Beyoncé) | Pitchfork	https://pitchfork.com/features/lists-and-guides/favorite-live-shows-2023
+DOC	18	Hardcore Punk Expanded Its Boundaries in 2023—and the Scene Embraced It | Pitchfork	https://pitchfork.com/thepitch/hardcore-expanded-its-boundaries-in-2023-and-the-scene-embraced-it
+DOC	28	The Rolling Stones Enlist Nicholas Hoult for New “Mess It Up” Video: Watch | Pitchfork	https://pitchfork.com/news/the-rolling-stones-enlist-nicholas-hoult-for-new-mess-it-up-video-watch
+DOC	36	Jonathan Rado: For Who the Bell Tolls For Album Review | Pitchfork	https://pitchfork.com/reviews/albums/jonathan-rado-for-who-the-bell-tolls-for

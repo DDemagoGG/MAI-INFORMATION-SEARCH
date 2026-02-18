@@ -1,0 +1,12 @@
+$ search_cli --index-dir data/index --query "(jazz OR blues) AND guitar" --limit 10
+TOTAL	216
+DOC	62	War: The World Is a Ghetto: 50th Anniversary Collector’s Edition Album Review | Pitchfork	https://pitchfork.com/reviews/albums/war-the-world-is-a-ghetto-50th-anniversary-collectors-edition
+DOC	94	The 30 Best Jazz and Experimental Albums of 2023 | Pitchfork	https://pitchfork.com/features/lists-and-guides/best-jazz-experimental-music-2023
+DOC	170	Rod Stewart: Every Picture Tells a Story Album Review | Pitchfork	https://pitchfork.com/reviews/albums/rod-stewart-every-picture-tells-a-story
+DOC	250	The 37 Best Rock Albums of 2023 | Pitchfork	https://pitchfork.com/features/lists-and-guides/best-rock-albums-2023
+DOC	288	The 50 Best Albums of 2023 | Pitchfork	https://pitchfork.com/features/lists-and-guides/best-albums-2023
+DOC	309	The 100 Best Songs of 2023 | Pitchfork	https://pitchfork.com/features/lists-and-guides/best-songs-2023
+DOC	357	The Best DJ Mixes of 2023 | Pitchfork	https://pitchfork.com/thepitch/best-dj-mixes-2023
+DOC	1089	Prince / The New Power Generation: Diamonds and Pearls (Super Deluxe Edition) Album Review | Pitchfork	https://pitchfork.com/reviews/albums/prince-and-the-new-power-generation-diamonds-and-pearls-super-deluxe-edition
+DOC	1462	The Waitresses: Wasn’t Tomorrow Wonderful? Album Review | Pitchfork	https://pitchfork.com/reviews/albums/the-waitresses-wasnt-tomorrow-wonderful
+DOC	1483	The Best Music of 2023 So Far | Pitchfork	https://pitchfork.com/features/lists-and-guides/best-music-2023-so-far
